@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Designing Assignment</title>
+</head>
+
+<body bgcolor="80EAFF">
+  <h1>Module (HTML) -1</h1>
+  <table border="5" width="100%">
+    <thead>
+      <td>Question</td>
+      <td>Answer</td>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1. Are the HTML tags and elements the same thing?</td>
+        <td>
+          <p>1. HTML Tags and Elements are sometimes perceived as the same.
+            However, they are not. There is a subtle difference between HTML
+            elements and tags that many people aren't aware of. HTML Tags are
+            building blocks of HTML Page. They tell the browser how it should
+            display content to the user. A tag starts with a < bracket and ends with a> bracket.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>2. What are tags and attributes in HTML?</td>
+        <td>
+          <p>2. Tags are used to mark up the start of an HTML element and they are usually enclosed in angle brackets.
+            An example of a tag is:
+          <h1>.
+            Most tags must be opened <h1> and closed </h1> in order to function.
+            Attributes contain additional pieces of information. Attributes take the form
+            of an opening tag and additional info is placed inside.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>3. What are void elements in HTML? With Example.</td>
+        <td>3. A void element is an element in HTML that cannot have any child nodes. Void elements
+          only have a start tag; end tags must not be specified for void elements.</td>
+      </tr>
+      <tr>
+        <td>4. What are HTML Entities? With Example.</td>
+        <td>4. HTML entities are special characters that are used to represent reserved characters, special characters
+          or invisible characters in HTML. HTML entity encoding is the
+          conversion of HTML reserved characters to their corresponding entities for browsers to display them correctly.
+        </td>
+      </tr>
+      <tr>
+        <td>5. What are different types of lists in HTML? With Example</td>
+        <td>5. In HTML, there are three types of lists: unordered, ordered and description lists.
+          Each of them is defined using different tags. Let’s have a look.
+          Example of the HTML
+          <ul> tag for creating an unordered list:
+            <!DOCTYPE html>
+            <html>
+
+            <head>
+              <title>Title of the document</title>
+            </head>
+
+            <body>
+              <h1>An unordered list:</h1>
+              <ul>
+                <li>This is a list item</li>
+                <li>This is another list item</li>
+                <li>This is one more list item</li>
+              </ul>
+            </body>
+
+            </html>
+            <!DOCTYPE html>
+            <html>
+
+            <head>
+              <title>Title of the document</title>
+            </head>
+
+            <body>
+              <h1>An ordered list:</h1>
+              <ol>
+                <li>This is List item number 1</li>
+                <li>This is List item number 2</li>
+                <li>This is List item number 3</li>
+              </ol>
+            </body>
+
+            </html>
+            <dl>
+              <!DOCTYPE html>
+              <html>
+
+              <head>
+                <title>Title of the document</title>
+              </head>
+
+              <body>
+                <h1>Description Lists:</h1>
+                <dl>
+                  <dt>Tea</dt>
+                  <dd>- hot drink</dd>
+                  <dt>Juice</dt>
+                  <dd>- cold drink</dd>
+                </dl>
+              </body>
+
+              </html>
+        </td>
+      </tr>
+      <tr>
+        <td>6. What is the ‘class’ attribute in HTML? With Example.</td>
+        <td>6. The class attribute in HTML is used to define a class of elements. It is used to group elements with
+          similar properties. The class attribute can be added to any HTML element. For example, if you want to style
+          all the headings in your document with a specific font and color, you can add the class attribute to all the
+          headings and then define the style for that class in your CSS file.
+
+          Here’s an example of how to use the class attribute in HTML:
+
+          <!DOCTYPE html>
+          <html>
+
+          <head>
+            <style>
+              .my-class {
+                color: white;
+                font-size: 20px;
+              }
+            </style>
+          </head>
+
+          <body>
+
+            <h1 class="my-class">This is a heading</h1>
+            <p class="my-class">This is a paragraph.</p>
+
+          </body>
+
+          </html>
+        </td>
+      </tr>
+      <tr>
+        <td>7. What is the difference between the ‘id’ attribute and the ‘class’ attribute of HTML
+          elements? With Example.
+        </td>
+        <td>7. The main difference between the 'id' attribute and the 'class' attribute is that the 'id' attribute is
+          used to identify a unique HTML element, while the 'class' attribute is used to specify a group of elements
+          that share the same style or behavior¹².
+
+          For example, if you have a paragraph element that you want to style differently from other paragraphs on your
+          page, you can use an 'id' attribute to identify that specific paragraph. You can then use CSS to apply styles
+          to that paragraph only.
+
+          html
+          <p id="unique-paragraph">This paragraph is unique.</p>
+
+
+          On the other hand, if you have several paragraphs on your page that you want to style in the same way, you can
+          use a 'class' attribute to group those paragraphs together. You can then use CSS to apply styles to all of
+          those paragraphs at once.
+
+          html
+          <p class="common-paragraph">This paragraph is common.</p>
+          <p class="common-paragraph">This paragraph is also common.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>8. What are the various formatting tags in HTML?</td>
+        <td>8. HTML Text Formatting<br><b> - Bold text<br>Example->This text is bolds<br>
+            <strong> - Important text
+              <i> - Italic text<br> Example:-This text is italic<br>
+                <em> - Emphasized text
+                  <mark> - Marked text
+                    <small> - Smaller text
+                      <del> - Deleted text
+                        <ins> - Inserted text
+                          <sub> - Subscript text
+                            <sup> - Superscript text</td>
+      </tr>
+      <tr>
+        <td>9. How is Cell Padding different form cell Spacing? With example</td>
+        <td>9. Cellpadding and cellspacing are two attributes of HTML tables that are used to control the amount of
+          space between the cells and the content within individual cells. Cellpadding is used to define the space
+          between the border of a cell and its content. Cellspacing is used to define the space between adjacent cells
+          in a table. For example, if you set cellpadding=5 and cellspacing=10, then each cell will have 5 pixels of
+          padding around its content and there will be 10 pixels of space between adjacent cells</td>
+      <tr>
+        <td>10. How Can we club two or more rows or columns into a single row or column in an HTML table? With example
+        </td>
+        <td>10. To merge two or more rows or columns into a single row or column in an HTML table, you can use the
+          rowspan and colspan attributes in tag. The rowspan attribute is used to merge or combine the number of cells
+          in a row whereas the colspan attribute is used to merge column cells in a table12.
+
+          Here’s an example of how you can use these attributes to merge two cells in a table:
+
+          <table>
+            <tr>
+              <td rowspan="2">Row 1 Column 1</td>
+              <td>Row 1 Column 2</td>
+              <td>Row 1 Column 3</td><br>
+            </tr>
+            <tr>
+              <td colspan="2">Row 2 Column 2 and Column 3</td>
+            </tr>
+          </table>
+          Copy
+          This will create a table with two rows and three columns. The first cell in the first row will span two rows,
+          while the second and third cells in the first row will remain separate. The second cell in the second row will
+          span two columns, while the third cell in the second row will remain separate1.
+        </td>
+      </tr>
+      <tr>
+        <td>11. What is a different between a block-level element and an inline element?</td>
+        <td>11. In HTML, block-level elements are those that take up the full width available and always start on a new
+          line. They create large blocks of content like paragraphs or page divisions.
+
+          On the other hand, inline elements do not start on a new line and only take up as much width as necessary.
+          They are used for small bits of content that appear within a block-level element.</td>
+      </tr>
+      <tr>
+        <td>12. How to create a Hyperlink in HTML ?What Example</td>
+        <td>12. To create a hyperlink in HTML, you can use the <a> element. The <a> element stands for “anchor,” and it
+              is used to create a hyperlink to another web page or a specific location on the same page.
+
+              Here is an example of how to create a hyperlink in HTML:
+
+              <a href="http://www.example.com">Link text</a>
+              <a href="http://www.example.com" target="_blank">Link text</a></td>
+      </tr>
+      <tr>
+        <td>13. What is the use of an iframe tag? With Example </td>
+        <td>13. HTML Iframe is used to display a nested webpage (a webpage within a webpage). The HTML <iframe> tag
+            defines an inline frame, hence it is also called as an Inline frame.
+            <!DOCTYPE html>
+            <html>
+
+            <body>
+              <h2>HTML Iframes example</h2>
+              <p>Use the height and width attributes to specify the size of the iframe:</p>
+              <iframe src="https://www.javatpoint.com" height="200" width="300" title="Iframe Example"></iframe>
+            </body>    
+
+            </html>
+        </td>
+      </tr>
+      <tr>
+        <td>14. What is the use of a span tag? Eaplaim With Example</td>
+        <td>14. The <span> tag is an inline container used to mark up a part of a text or document. It can be used for
+            styling purposes like highlighting a specific word within a paragraph or applying a different font size to a
+            single character1. The <span> tag can also be used with CSS to create hover effects, animations, and other
+              dynamic features on a web page. Here’s an example of how you can use the <span> tag to color a part of
+                text:
+
+                <p> My mother has <span style="color:blue"> blue </span> eyes. </p>
+
+                In this example, the word “blue” is colored blue using the <span> tag</td>
+      </tr>
+      <tr>
+        <td>15.How to insert a picture into a background image of a web page? With example.
+        <td>15. To add a background image on an HTML element, use the HTML style attribute and the CSS
+          background-imageproperty: You can also specify the background image in the <style>
+            element,
+            in the <head>section: Add a background image for the entire page: Example <style>body {
+              background-image: url('img_girl.jpg');
+            }
+          </style>
+        </td>
+      </tr>
+      <tr>
+        <td>16. How are active links differet from normal links?</td>
+        <td>16. The default color for normal and active links is blue. Some browsers recognize an active link when the
+          mouse cursor is placed over that link; others recognize active links when the link has the focus. Those that
+          don’t have a mouse cursor over that link is considered a normal link.</td>
+      </tr>
+      <tr>
+        <td>17. What are the different tags to separete sections of text?</td>
+        <td>17. Three tags are used to separate the texts.
+
+          <br> tag - Usually <br> tag is used to separate the line of text. It breaks the current line and conveys the
+          flow to the next line
+
+          <p> tag - The
+          <p> tag contains the text in the form of a new paragraph.
+
+          <blockquote> tag - It is used to define a large quoted section. If you have a large quotation, then put the
+            entire text within <blockquote>HTML</blockquote> tag.
+        </td>
+      </tr>
+      <tr>
+        <td>18. Wt is SVG?</td>
+        <td>18. SVG stands for Scalable Vector Graphics. It is a vector-based graphics format that defines graphics in
+          XML format1. SVG images can be created and edited with any text editor, and they can be searched, indexed,
+          scripted, and compressed. They are also scalable, meaning they can be printed with high quality at any
+          resolution and do not lose any quality if they are zoomed or resized.</td>
+      </tr>
+
+      <tr>
+        <td>20. What are logical and physical tags in HTML?</td>
+        <td>20. In HTML, logical tags describe the meaning or structure of the content it surrounds, while physical tags
+          describe the presentation or appearance of the content . Logical tags are also known as structural tags and
+          present the functions of text on the page . Physical tags are used to provide the visual appearance to the
+          text . Logical tags are used only to give information about the text, written in the HTML page.</td>
+      </tr>
+    </tbody>
+  </table>
+
+</body>
+
+</html>
